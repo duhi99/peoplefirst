@@ -1,0 +1,553 @@
+* {
+  background-color: lightgray;
+  margin: 0;
+}
+
+.navbar {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-image: url("images/peoplefirst.jpg");
+  background-size: cover;
+  height: 60px;
+  width: 200px;
+  margin-left: 15px;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  border: 0.2px solid orange;
+  background-color: white;
+  margin-left: 250px;
+  position: relative;
+  border-style: hidden;
+  border-bottom-style: inset;
+  border-right-style: inset;
+}
+
+.add {
+  color: orange;
+  background-color: white;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 12px;
+}
+.headings p {
+  display: inline;
+  color: green;
+  font-size: 0.8rem;
+  background-color: white;
+  margin-left: 20px;
+}
+.headings {
+  background-color: white;
+}
+
+.outside {
+  background-color: white;
+  height: 60px;
+  width: 200px;
+  margin-left: 130px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.image {
+  background-size: cover;
+  height: 60px;
+  width: 200px;
+}
+
+.image1 {
+  background-image: url("images/newpicture.png");
+  background-size: contain;
+  height: 316px;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  height: 60px;
+  width: 180px;
+  padding-bottom: 10px;
+  /** border: 2px solid black;**/
+  position: relative;
+  margin: auto;
+  margin-top: 35px;
+}
+.heading p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+
+  justify-content: space-evenly;
+
+  width: 70%;
+  margin: auto;
+  background-color: lightgray;
+  margin-top: 40px;
+}
+
+.box {
+  height: 300px;
+  width: 30%;
+  background-color: white;
+  margin-right: 14px;
+  margin-left: 14px;
+}
+.box1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(241, 131, 5);
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.fed-img {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(241, 131, 5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.fed-img i {
+  background-color: transparent;
+}
+.box1 i {
+  background-color: transparent;
+}
+.sub-heading {
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.sub-heading p {
+  background-color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.list {
+  margin-top: 10px;
+}
+.list li {
+  background-color: white;
+  /* padding-bottom: 10px; */
+  font-size: 0.95rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 30px;
+}
+.list ul {
+  background-color: white;
+  list-style: none;
+}
+.list ul li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  line-height: 12px;
+  font-size: 14px;
+}
+
+.solution {
+  background-color: white;
+  background-size: cover;
+  height: 680px;
+  margin-top: 50px;
+}
+
+.heading1 {
+  height: 60px;
+  width: 210px;
+  padding-bottom: 10px;
+  border: 2px solid transparent;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.heading1 p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.sub-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 120px;
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  margin-top: 40px;
+}
+.box0 {
+  height: 275px;
+  width: 30%;
+  background-color: black;
+  margin-right: 14px;
+  margin-left: 14px;
+  overflow: hidden;
+  position: relative;
+}
+.rectangle {
+  position: absolute;
+
+  bottom: 10px;
+  background-color: orange;
+  opacity: 0.7;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  left: 5%;
+  margin-bottom: 10px;
+  display: flex;
+}
+.img1 {
+  height: 100%;
+  width: 100%;
+}
+.lms {
+  margin-left: 10px;
+  /* margin-top:10px; */
+  padding: 10px 0px 18px 0px;
+  background-color: orange;
+  width: 80%;
+}
+.lms p {
+  background-color: orange;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: lighter;
+}
+.online {
+  width: 300px;
+  height: 50px;
+  background-color: orange;
+}
+.online p {
+  background-color: orange;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: lighter;
+}
+.vector {
+  height: 45px;
+  width: 20%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  font-size: 18px;
+}
+.vector i {
+  background-color: transparent;
+}
+.test {
+  height: 18%;
+  width: 67.2%;
+  /* border:2px solid black;   */
+  margin: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.heading3 {
+  height: 20px;
+  width: 40px;
+  /* position: relative; */
+}
+.heading3 p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: white;
+  /* margin-top: 38px; */
+  padding: 45px 0px 20px 0px;
+}
+.left-right {
+  height: 18px;
+  width: 65px;
+  background-color: green;
+  padding: 10px 0px 10px 0px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left i,
+.right i {
+  background-color: green;
+}
+.expressbank {
+  height: 14%;
+  width: 67.5%;
+  margin: auto;
+  background-color: white;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.express {
+  height: 140px;
+  width: 50%;
+  background-color: lightgray;
+  display: flex;
+}
+.bank {
+  height: 140px;
+  width: 50%;
+  background-color: beige;
+}
+.fedex {
+  height: 140px;
+  width: 140px;
+  background-image: url("images/FedEx-Logo-Icon.webp");
+  background-size: contain;
+  overflow: hidden;
+}
+.texts {
+  height: 140px;
+  width: 310px;
+  background-color: white;
+}
+.texts1 {
+  height: 20px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  padding: 10px 0px 0px 10px;
+}
+.texts1 span {
+  background-color: white;
+  font-size: 0.85rem;
+  margin-right: 5px;
+  margin: 5px;
+}
+.head {
+  color: green;
+}
+.customer {
+  color: green;
+}
+.federal {
+  color: green;
+}
+.exheading {
+  height: 20px;
+
+  background-color: white;
+  margin-left: 5px;
+  /* border:2px solid black; */
+  padding: 8px 10px 0px 12px;
+}
+.exheading p {
+  background-color: white;
+  font-size: 0.85rem;
+  color: green;
+}
+.lastheading {
+  height: 20px;
+  width: 280px;
+  background-color: white;
+  margin-left: 5px;
+  /* border:2px solid black; */
+  padding: 8px 10px 0px 12px;
+}
+.lastheading p {
+  background-color: white;
+  font-size: 0.85rem;
+  color: black;
+}
+.lastheading1 {
+  height: 20px;
+  width: 280px;
+  background-color: white;
+  margin-left: 5px;
+  /* border:2px solid black; */
+  padding: 8px 10px 0px 12px;
+}
+.lastheading1 p {
+  background-color: white;
+  font-size: 0.85rem;
+  color: black;
+}
+.fedex1 {
+  height: 140px;
+  width: 140px;
+  background-image: url("images/imgg.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.clients {
+  height: 300px;
+}
+.clients-heading {
+  height: 60px;
+  width: 210px;
+  padding-bottom: 10px;
+  border: 2px solid transparent;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+.clients-heading p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+.logos {
+  height: 120px;
+  width: 98%;
+  margin: auto;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.log {
+  height: 118px;
+  width: 12%;
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 0px 1px 0px 8px;
+}
+.logo-img {
+  height: 118px;
+  width: 138px;
+  background-size: cover;
+}
+.footer {
+  background-color: black;
+  height: 300px;
+}
+.container {
+  width: 80%;
+  background-color: black;
+  margin: auto;
+  padding: 50px;
+  /* margin-top: 20px; */
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.footer-col {
+  width: 25%;
+
+  background-color: black;
+}
+.footer-col li {
+  background-color: black;
+  color: white;
+  list-style-type: disc;
+  margin-bottom: 12px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.footer-col ul {
+  background-color: black;
+}
+.footer-col h4 {
+  background-color: black;
+  color: white;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+.social-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 45%;
+  margin-left: 24px;
+}
+.social-main div {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-main i {
+  background-color: transparent;
+}
+.fb {
+  background-color: darkblue;
+}
+.linkedin {
+  background-color: blueviolet;
+}
+.twitter {
+  background-color: blue;
+}
+.reddit {
+  background-color: red;
+}
+
+.contact-main {
+  margin-left: 24px;
+  background-color: black;
+}
+.qstns {
+  padding: 10px 0px;
+  background-color: black;
+  color: white;
+}
+.contact-text {
+  display: flex;
+  /* align-items: center; */
+  margin: 8px 0px;
+}
+.contact-icon {
+  padding: 0px 5px;
+  margin: 0px 5px;
+  background-color: black;
+}
+.qstns p,
+.info p,
+.contact-text,
+.privacy,
+.privacy p {
+  background-color: black;
+  color: white;
+}
+.contact-icon i {
+  background-color: black;
+}
+.privacy {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.privacy p {
+  padding: 5px 0px;
+}
